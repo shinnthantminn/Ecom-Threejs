@@ -38,11 +38,9 @@ const OverLay = ({ done }) => {
     >
       <div className="w-full h-[90vh] flex flex-col justify-between">
         <div className="w-full flex items-center justify-between fontbold ">
-          <p className="sub-header ps-5">Hsu Win Lat</p>
+          <p className="sub-header ps-5">Terry</p>
           <h1 className="text-lg">Shoes with Souls</h1>
-          <p className="sub-header pe-5 hidden md:block lg:block">
-            Javascript Mastery
-          </p>
+          <p className="sub-header pe-5 hidden md:block lg:block">Shoe Ecom</p>
         </div>
         <div className="h-full flex items-end justify-center">
           <h1 className="fontbold heroHeader text-center text-white text-[6rem] top-[10%] lg:top-[3%] lg:text-[12rem] md:text-[8.5rem] ">
@@ -76,8 +74,8 @@ const OverLay = ({ done }) => {
 const Footer = () => {
   return (
     <div className=" text-center my-5 p-5 opacity-50 font-bold uppercase">
-      Made with ❤️‍🔥 by Hsu Win Lat{" ❤️‍🔥 "}
-      <span className="lowercase">hsuwinlat2910@gmail.com</span>
+      Made with ❤️‍🔥 by Terry{" 🚀 "}
+      <span className="lowercase">shinnthantmindev.mm@gmail.com</span>
     </div>
   );
 };
