@@ -1,0 +1,71 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "BLMelodyBold";
+  src: url("/assets/bl-melody/BLMelody-Bold.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "BLMelodyRegular";
+  src: url("/assets/bl-melody/BLMelody-ExtraLight.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "BLMelodyMono";
+  src: url("/assets/bl-melody/BLMelody-MonoBold.woff2") format("woff2");
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  background: #000;
+  user-select: none;
+  background: #d0d0d0;
+  overflow-x: hidden;
+}
+
+canvas {
+  height: 100dvh;
+  touch-action: none;
+}
+
+.hero-section {
+  height: 100%;
+}
+
+.fontbold {
+  font-family: "BLMelodyBold";
+}
+
+.sub-header {
+  font-family: "BLMelodyRegular";
+  color: #060606;
+}
+
+.heroHeader {
+  width: 100vw;
+  /* font-size: 12rem; */
+  position: absolute;
+  z-index: -1;
+  /* top: 3%; */
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.yearText {
+  position: absolute;
+  /* top: 5%; */
+  /* font-size: 40rem; */
+  z-index: -1;
+  /* transform: rotateZ(-90deg); */
+  color: #fff;
+  opacity: 0.1;
+}
