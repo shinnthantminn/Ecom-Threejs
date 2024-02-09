@@ -1,6 +1,6 @@
 Shoe E-commerce
 
-https://jsm-e-com.vercel.app/
+https://shoe-gamma.vercel.app/
 
 - npm install
 - npm run dev
